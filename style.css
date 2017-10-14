@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#div_up {
+  background-color: ;
+  padding-top: 110px;
+}
+
+#div_up a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-top: -85px;
+}
+
+#div_up a:hover {
+  background-color: #999;
+}
+
+#abt {
+  float: right;
+  padding: 15px;
+  margin: 15px;
+}
+
+#art {
+  float: left;
+  padding: 15px;
+  margin: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.one p {
+  background-color: green;
+}
+
+.two p {
+  background-color: yellow;
+}
+
+.one img {
+  width: 100%;
+  display: block;
+}
+
+.two img {
+  width: 100%;
+  display: block;
+}
+
+#about {
+  text-align: center;
+  padding-top: 80px;
+}
+
+#about img {
+  height: auto;
+  width: 35%;
+}
+
+#p {
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#span {
+  color: red;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.form {
+  margin: auto;
+  width: 80%;
+  font-size: 15px;
+  text-align: center;
+}
+
+#name {
+  width: 100%;
+  line-height: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 100%;
+  line-height: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 100%;
+  line-height: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 25px;
+}
+
+#submit {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #999;
+  padding: 9px;
+}
+
+#submit:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#bottom {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 500px) {
+  [class*="col-"] {
+        width: 100%;
+    }
+   #about img {
+        height: auto;
+        width: 60%;
+   }
+}
